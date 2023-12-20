@@ -1,9 +1,11 @@
-import './App.css';
+import SearchBar from './components/SearchBar/SearchBar';
 
-const App = () => (
-  <>
-    App
-  </>
-);
+function App() {
+  return (
+    <>
+      <SearchBar/>
+    </>
+  );
+}
 
 export default App;
